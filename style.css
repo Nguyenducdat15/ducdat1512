@@ -270,3 +270,26 @@ body {
 .hide{
   display: none;
 }
+/* Responsive styles*/
+@media only screen and (max-width: 768px) {
+  .profile-image img{
+    max-width: 100%;
+  }
+  .main-menu ul{
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-menu li{
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width:600px) {
+  h2{
+  
+    font-size: 28px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
